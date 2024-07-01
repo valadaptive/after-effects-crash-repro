@@ -1,0 +1,13 @@
+[package]
+name = "after-effects-crash-repro"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+after-effects = {git = "https://github.com/AdrianEddy/after-effects/", rev = "b5e7454"}
+
+[build-dependencies]
+pipl = {git = "https://github.com/AdrianEddy/after-effects/", rev = "b5e7454"}
